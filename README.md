@@ -294,3 +294,29 @@ typedef NS_ENUM(NSUInteger, Priority) {
 @end
 ```
 
+##Categories
+Categories are **always** in a separate header and implementation file.
+
+For utilities the naming convention is **ClassName+Util.h**.
+
+For Theming of UIKit (UIColor/UIFont) the naming convention is **UIColor+ProjectNameTheme**.
+
+##Protocols
+Protocols may be defined in the file where they are referred.
+
+```objc
+#import <NSFoundation/NSFoundation.h>
+#import "ProtoB.h"
+
+@class ClassX;
+@protocol ProtoC;
+
+@protocol ProtocolA <NSObject, ProtoB>
+- (id)method:(ClassX<ProtoC>)x;
+
+@optional
+- (id)methodB;
+
+@end
+```
+
