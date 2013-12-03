@@ -84,7 +84,7 @@ For an example of white lines in your code take a look at the [Example Class](#e
 ###Initialisation
 To avoid that your class is not correctly initialise you should create a method that will setup your object and call the method in all the entry point of your class.
 For example in UIViewController you should always call your setup method in the init method and the awakeFromNib method. As they are both entry points to initialising your class.
-The naming convention for this setup methode is **_setupClassName**. e.g.
+The naming convention for this setup method is **_setupClassName**. e.g.
 ```objc
 - (id)init {
     self = [super init];
@@ -126,7 +126,7 @@ We prefer that you create folders for each group you create in Xcode/AppCode. (A
         📁 Header
         📁 Cell
         📁 Footer
-        📁 Supplementry
+        📁 Supplementary
     📁 Custom Control
     📁 Custom View
         📄 UIView subclasses*
@@ -334,5 +334,5 @@ Normal coding conventions still apply, so for example, **methods** will begin wi
 
 ##Not yet defined
 - Localisation
-- Aporved third party frameworks
+- Approved third party frameworks
 
