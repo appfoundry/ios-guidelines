@@ -166,14 +166,15 @@ Imports should only be done for the Super class and for adopted protocols. All o
 
 ###.m
 ####Private Members
-Private ivars, properties and privately adopted protocols are declared in the class extension. We prefer the use of ivars over properties. All private members should start with an underscore.
+Private ivars, properties and privately adopted protocols are declared in the class extension. We **prefer** the use of **ivars over properties*. All private members should start with an underscore.
 
-If you do want to use properties you should synthesize your properties as _propertyName. e.g.
+If you do want to use properties you should synthesize your properties as **_propertyName**. e.g.
 ```objc
 @synthesize _propertyName = _propertyName;
 ```
 ####Pragma Marks
-Pragma marks are always with a dash and you insert one per protocol adoption.
+Pragma marks are **always** with a dash and you insert one per protocol adoption.
+
 Other pragma mark are Actions and Accessors.
 ```objc
 #pragma mark - Object lifecycle
@@ -319,4 +320,19 @@ Protocols may be defined in the file where they are referred.
 
 @end
 ```
+
+##DRYFramework
+If you notice code that is reusable for other projects internal or in open sources projects by people outside of iDA-MediaFoundry you should add this to the iDA-MediaFoundry Framework code.
+
+All Framework code **always** has the **prefix DRY** so Classnames, type names, protocol names,… always start with DRY.
+Normal coding conventions still apply, so for example, **methods** will begin with **dry is stead of DRY**.
+
+```objc
+@protocol DRYClassName
+- (void)dryMethodWithoutParms;
+```
+
+##Not yet defined
+- Localisation
+- Aporved third party frameworks
 
