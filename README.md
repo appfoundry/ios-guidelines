@@ -155,7 +155,7 @@ We prefer that you create folders for each group you create in Xcode/AppCode. (A
 The header file should be empty or very limited, only public properties, public methods and public adaptation of protocols should be in this file.
 This means that you only move declarations to the header file if there is no other solution.
 
-Protected properties and methods should be provide thru a category on your class to the subclasses.
+Protected properties and methods should be provide through a category on your class to the subclasses.
 This category should be called **“ClassName+ForSubclassesOnly”** and only a subclass of that class should import the header of this category.
 
 Imports should only be done for the Super class and for adopted protocols. All other references to protocols or classes should not be imported. These should be reference thru forward declaration. e.g.
