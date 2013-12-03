@@ -332,7 +332,4 @@ Normal coding conventions still apply, so for example, **methods** will begin wi
 - (void)dryMethodWithoutParms;
 ```
 
-##Not yet defined
-- Localisation
-- Approved third party frameworks
 
