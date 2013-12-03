@@ -1,4 +1,18 @@
-ios-guidelines
-==============
+iOS Coding Guidelines
+=====================
 
-Our internal guidelines for iOS development
+General Coding Guidelines
+=========================
+
+*Dotted Notation
+
+*Code Casing
+
+*Indentation
+
+*Brackets
+
+*White lines
+
+
+
