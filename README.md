@@ -71,7 +71,7 @@ Opening brackets should be placed on the **same line**, with a leading space.
 Closing brackets should be on a **new line** with the same indent as the start of the scope.
 ```objc
 - (void)methodWithoutParam {
-    if([a isEqual:b]) {
+    if ([a isEqual:b]) {
 
     }
 } 
@@ -252,7 +252,7 @@ typedef NS_ENUM(NSUInteger, Priority) {
 #pragma mark - Object lifecycle
 - (id)init {
     self = [super init];
-    if(self) {
+    if (self) {
         [self _setupClassName];
     }
     return self;
