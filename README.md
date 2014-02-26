@@ -78,7 +78,7 @@ Closing brackets should be on a **new line** with the same indent as the start o
 ```
 
 ###White lines
-As a general rule you should never have more that 1 white line in you classes.
+As a general rule you should never have more that 1 white line in your classes.
 For an example of white lines in your code take a look at the [Example Class](#example-class) section.
 
 ###Initialisation
