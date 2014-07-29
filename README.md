@@ -166,7 +166,7 @@ Imports should only be done for the Super class and for adopted protocols. All o
 
 ###.m
 ####Private Members
-Private ivars, properties and privately adopted protocols are declared in the class extension. We **prefer** the use of **ivars over properties*. All private members should start with an underscore.
+Private ivars, properties and privately adopted protocols are declared in the class extension. We **prefer** the use of **ivars over properties**. All private members should start with an underscore. This also includes methods. 
 
 If you do want to use properties you should synthesize your properties as **_propertyName**. e.g.
 ```objc
