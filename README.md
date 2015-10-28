@@ -325,7 +325,7 @@ Protocols may be defined in the file where they are referred.
 If you notice code that is reusable for other projects internal or in open sources projects by people outside of AppFoundry you should add this to the AppFoundry Framework code.
 
 All Framework code **always** has the **prefix DRY** so Classnames, type names, protocol names,… always start with DRY.
-Normal coding conventions still apply, so for example, **methods** will begin with **dry is stead of DRY**.
+Normal coding conventions still apply, so for example, **methods** will begin with **dry instead of DRY**.
 
 ```objc
 @protocol DRYClassName
