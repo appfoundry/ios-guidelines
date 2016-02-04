@@ -103,8 +103,18 @@ The naming convention for this setup method is **_setupClassName**. e.g.
     ...;
 }
 ```
+###Project structure external
+```
+📁 sources
+    📁 provisioning
+    	📄 <configuration name>.mobileprovisioningprofile
+    📁 <Project Name>
+    	📄 podfile
+    	📄 workspace
+    	.. sources
+```
 
-###Project structure
+###Project structure Internal
 We prefer that you create folders for each group you create in Xcode/AppCode. (AppCode will do this for you)
 ```
 📁 Model
@@ -331,5 +341,3 @@ Normal coding conventions still apply, so for example, **methods** will begin wi
 @protocol DRYClassName
 - (void)dryMethodWithoutParms;
 ```
-
-
